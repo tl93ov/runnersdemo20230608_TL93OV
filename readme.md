@@ -40,7 +40,7 @@ Az utolsó commit lehetőleg egy forduló, elindítható kód legyen...
 - Vegyetek fel egy harmadik futót tetszőleges adatokkal (1p)
 - Csináljatok egy GET REST végpontot, ahol le lehet kérdezni a legnagyobb lábú futó nevét. (5p)
 - Bővítsétek a postman collectiont erre a fenti végpontra való kéréssel (3p)
-- Írjátok ki a futók átlagiramát a http://localhost:8080/runners címen a futók listája alá (5p)
+- Írjátok ki a futók átlagiramát (Pace) a http://localhost:8080/runners címen a futók listája alá (5p)
 - Vezessetek be egy új Cipő entitást ShoeName néven (azonosító, név) egy futó egy fajta cipőt használhat (oneToMany) (5p)
 - Adjatok hozzá minden futóhoz inicializációkor egy cipőtípust (3p)
 - A futó részletek http://localhost:8080/runner/{id} képernyőjén mutassuk meg a cipőtípust (3p)
