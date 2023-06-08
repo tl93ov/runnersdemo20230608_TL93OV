@@ -44,7 +44,7 @@ Az utolsó commit lehetőleg egy forduló, elindítható kód legyen...
 - Vezessetek be egy új Cipő entitást ShoeName néven (azonosító, név) egy futó egy fajta cipőt használhat (oneToMany) (5p)
 - Adjatok hozzá minden futóhoz inicializációkor egy cipőtípust (3p)
 - A futó részletek http://localhost:8080/runner/{id} képernyőjén mutassuk meg a cipőtípust (3p)
-- Írjatok egy REST végpontot, ahol id alapján lehet változtatni a futó cipőtpusát (6p)
+- Írjatok egy REST végpontot, ahol id alapján lehet változtatni a futó cipőtípusát (6p)
 - Bövítsétek a postman collectiont ezzel a kéréssel (1p)
 #### Részfeladatok összesen 35 pont
 + commitok minősége max 5 pont
