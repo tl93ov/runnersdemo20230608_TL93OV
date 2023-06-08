@@ -22,6 +22,7 @@ public class RunnerController {
         List<RunnerEntity> runners = runnerRepository.findAll();
         model.addAttribute("runners", runners);
         return "runners";
+
     }
 
     @GetMapping("/runner/{id}")

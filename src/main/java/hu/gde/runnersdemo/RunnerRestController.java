@@ -41,6 +41,18 @@ public class RunnerRestController {
             return -1.0;
         }
     }
+    /*@GetMapping("/{id}/biggestshoesize")
+    public double getBiggestShoeSize(@PathVariable Long id) {
+        RunnerEntity runner = runnerRepository.findById(id).orElse(null);
+        if (runner != null) {
+            List<runnerRepository> shoeSizes = runner.getShoeSize();
+
+        } else {
+            return -1.0;
+        }
+    }*/
+
+
 
     @GetMapping("")
     public List<RunnerEntity> getAllRunners() {

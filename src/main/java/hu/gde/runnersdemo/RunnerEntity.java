@@ -14,8 +14,11 @@ public class RunnerEntity {
 
     private long shoeSize;
 
+    private String ShoeName;
+
     @OneToMany(mappedBy = "runner", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<LapTimeEntity> laptimes = new ArrayList<>();
+
 
 
     public RunnerEntity() {
@@ -24,6 +27,9 @@ public class RunnerEntity {
     public long getRunnerId() {
         return runnerId;
     }
+
+    @OneToMany(mappedBy = "runnerId")
+    public String getShoeName(){return ShoeName; }
 
     public String getRunnerName() {
         return runnerName;
@@ -39,6 +45,10 @@ public class RunnerEntity {
         this.runnerId = runnerId;
     }
 
+    public void setShoeName(String ShoeName) {
+        this.ShoeName = ShoeName;
+    }
+
     public void setRunnerName(String runnerName) {
         this.runnerName = runnerName;
     }
@@ -52,4 +62,5 @@ public class RunnerEntity {
     public List<LapTimeEntity> getLaptimes() {
         return laptimes;
     }
+
 }
